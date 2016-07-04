@@ -1,0 +1,83 @@
+body{
+  background-image : url(./images/LifeofPiImage.jpg);
+  background-size: cover;
+}
+
+.titleLogo {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: 900;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: #d43f3a;
+  float: left;
+}
+
+.loginModal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 300px;
+  margin-left: -200px;
+  margin-top: -150px;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+.signupModal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 375px;
+  margin-left: -200px;
+  margin-top: -150px;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+.lgnbtntxt{
+  color: white;
+  font-size: 120%;
+  text-align: center;
+  font-weight: 400;
+}
+
+.lgnFields {
+  border-radius: 3px;
+  border: 1px solid grey;
+  width: 300px;
+  height: 40px;
+  padding: 3px;
+  margin: 5px auto 5px auto;
+  background-color: beige;
+}
+
+.loginbtn{
+  border: 1px solid grey;
+  background-color: #2e6da4;
+  border-radius: 3px;
+  width: 400px;
+  height : 40px;
+  margin: 10px auto 5px auto;
+}
+
+.tandcfont {
+  font-size: small;
+  padding: 5px;
+}
+
+.sgnUplnk {
+  margin: 5px;
+}
+
+.appDiv:after {
+  clear: both;
+}
